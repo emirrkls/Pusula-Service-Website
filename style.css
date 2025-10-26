@@ -1,0 +1,40 @@
+/* * Pusula Service Website
+ * Main Stylesheet
+ * * Task: 1-design-overall-website-layout-and-branding
+ */
+
+/* Define color palette as root variables */
+:root {
+    --primary-blue: #00B0F0;
+    --secondary-blue: #2D3E6C;
+    --neutral-light: #FFFFFF;
+    --neutral-dark: #333333;
+    
+    /* Standard font for the site */
+    --font-family-main: Arial, Helvetica, sans-serif;
+}
+
+/* Basic body styling */
+body {
+    font-family: var(--font-family-main);
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Test Styles --- */
+/* We add this just to see our colors in action */
+h1 {
+    color: var(--secondary-blue);
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* A very light grey for the header */
+}
+
+p {
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 30px;
+}
